@@ -50,7 +50,7 @@ const closeMenu = () => {
                 to="/contact"
                 class="inline-flex rounded-full px-4 py-2.5 font-semibold transition bg-neutral-950 text-white hover:bg-neutral-800"
               >
-                <span class="relative top-px">Nous Contacter</span>
+                <span class="relative top-px">Envoyer une demande</span>
               </RouterLink>
 
               <button

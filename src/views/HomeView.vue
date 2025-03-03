@@ -3,7 +3,7 @@ import BackgroundSvg from '../components/layout/BackgroundSvg.vue'
 
   import HeroSection from '../components/home/HeroSection.vue'
   import WorkShowcase from '@/components/home/WorkShowcase.vue'
-  import ServicesSection from '@/components/home/ServicesSection.vue'
+  import NosServicesSection from '@/components/home/NosServicesSection.vue'
   import ProcessSection from '@/components/home/ProcessSection.vue'
   import TestimonialSection from '@/components/home/TestimonialSection.vue'
   import ContactSection from '@/components/home/ContactSection.vue'
@@ -25,7 +25,7 @@ import BackgroundSvg from '../components/layout/BackgroundSvg.vue'
         <WorkShowcase />
         
         <!-- Services Section -->
-        <ServicesSection />
+        <NosServicesSection />
         
         <!-- Process Section -->
          

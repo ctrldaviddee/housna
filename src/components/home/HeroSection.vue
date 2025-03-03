@@ -8,10 +8,10 @@
       <div class="mx-auto max-w-full lg:max-w-none lg:flex">
         <FadeIn class="max-w-3xl lg:flex-shrink-0 ">
           <h1 class="hero-title font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
-           Accueil
+            Achetez de l'extérieur, nous nous occupons du reste!
           </h1>
           <p class="hero-description mt-6 text-xl text-neutral-600">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas officiis voluptates repellat deserunt mollitia cumque molestias necessitatibus placeat repellendus ipsam sequi, labore reiciendis, blanditiis veritatis, sunt id eveniet adipisci deleniti?
+           
           </p>
         </FadeIn>
 
@@ -23,7 +23,7 @@
               alt="App screenshot"
               width="1185"
               height="700"
-              class="w-[50rem] rounded-md shadow-2xl ring-1 ring-gray-900/10 grayscale"
+              class="w-[50rem] rounded-md shadow-2xl ring-1 ring-gray-900/10"
             />
           </div>
         </div>
