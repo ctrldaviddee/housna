@@ -102,6 +102,7 @@ const closeMenu = () => {
                 </RouterLink>
                 <div class="flex items-center gap-x-8">
                   <RouterLink
+                  @click="closeMenu"
                     to="/contact"
                     class="inline-flex rounded-full px-4 py-2.5 font-semibold transition text-neutral-950 bg-white hover:bg-neutral-200"
                   >
