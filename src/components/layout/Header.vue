@@ -9,13 +9,13 @@ import CloseIcon from "@/components/icons/CloseIcon.vue";
 const isMenuOpen = ref(false);
 
 const navigation1 = [
-  { name: "About", href: "/about" },
-  { name: "Process", href: "/process" },
+  { name: "Mon compte", href: "/about" },
+  { name: "Outils", href: "/process" },
 ];
 
 const navigation2= [
-  { name: "Work", href: "/work" },
-  { name: "Blog", href: "/blog" },
+  { name: "Contacts", href: "/work" },
+  { name: "Fonctionnement", href: "/blog" },
 ];
 
 const toggleMenu = () => {
