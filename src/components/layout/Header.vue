@@ -9,13 +9,13 @@ import CloseIcon from "@/components/icons/CloseIcon.vue";
 const isMenuOpen = ref(false);
 
 const navigation1 = [
-  { name: "About", href: "/about" },
-  { name: "Process", href: "/process" },
+  { name: "Mon compte", href: "/about" },
+  { name: "Outils", href: "/process" },
 ];
 
 const navigation2= [
-  { name: "Work", href: "/work" },
-  { name: "Blog", href: "/blog" },
+  { name: "Contacts", href: "/work" },
+  { name: "Fonctionnement", href: "/blog" },
 ];
 
 const toggleMenu = () => {
@@ -50,7 +50,7 @@ const closeMenu = () => {
                 to="/contact"
                 class="inline-flex rounded-full px-4 py-2.5 font-semibold transition bg-neutral-950 text-white hover:bg-neutral-800"
               >
-                <span class="relative top-px">Envoyer une demande</span>
+                <span class="relative top-px">Soumettre une demande</span>
               </RouterLink>
 
               <button
@@ -106,7 +106,7 @@ const closeMenu = () => {
                     to="/contact"
                     class="inline-flex rounded-full px-4 py-2.5 font-semibold transition text-neutral-950 bg-white hover:bg-neutral-200"
                   >
-                    <span class="relative top-px">Nous Contacter</span>
+                    <span class="relative top-px">Soumettre une demande</span>
                   </RouterLink>
                   <button
                     @click="toggleMenu"

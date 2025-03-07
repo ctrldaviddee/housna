@@ -2,8 +2,8 @@
 import { defineComponent, h } from 'vue'
 import { RouterLink } from 'vue-router'
 import FadeIn from '@/components/shared/FadeIn.vue'
-import BuySvg from './buy.svg'
-import CourierDeliverySvg from './courier-delivery.svg'
+import BuySvg from '@/assets/media/svgS/buy.svg'
+import CourierDeliverySvg from '@/assets/media/svgS/courier-delivery.svg'
 
 // const CodeIcon = defineComponent({
 //   render: () => h('svg', {
@@ -120,7 +120,7 @@ const services = [
                 to="/contact"
                 class="inline-flex rounded-full px-4 py-2.5 font-semibold transition bg-neutral-950 text-white hover:bg-neutral-800"
               >
-                <span class="relative top-px">Envoyer une demande</span>
+                <span class="relative top-px">Soumettre une demande</span>
               </RouterLink>
 
           </div>
